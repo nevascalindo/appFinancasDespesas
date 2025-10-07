@@ -1,6 +1,6 @@
-# 💰 App Finanças Pessoais
+# 💰 App Finanças Pessoais | LUCAS MERINI FLORES
 
-Aplicativo mobile de controle de finanças pessoais desenvolvido com React Native, Expo e Supabase.
+Aplicativo mobile de controle de finanças pessoais desenvolvido com React Native, Expo e Supabase na aula de CODIFICAR APLICAÇÕES DISPOSITIVOS MOVEIS.
 
 ## 📋 Funcionalidades
 
@@ -13,15 +13,7 @@ Aplicativo mobile de controle de finanças pessoais desenvolvido com React Nativ
 - ✅ Listagem e filtros de transações
 - ✅ Design responsivo e moderno
 
-
-### 1. Pré-requisitos
-
-- Node.js (versão 16 ou superior)
-- npm ou yarn
-- Expo CLI (`npm install -g expo-cli`)
-- Conta no Supabase (gratuita)
-
-### 2. Clone e instale as dependências
+### 1. Clone e instale as dependências
 
 ```bash
 # Já está no diretório do projeto
@@ -31,9 +23,9 @@ cd C:\Users\lucas.flores\Documents\appFinancasDespesas
 npm install
 ```
 
-### 3. Configurar o Supabase
+### 2. Configurar o Supabase
 
-#### 3.1. Criar projeto no Supabase
+#### 2.1. Criar projeto no Supabase
 
 1. Acesse [https://supabase.com](https://supabase.com)
 2. Crie uma conta (se não tiver)
@@ -44,7 +36,7 @@ npm install
    - **Region**: Escolha a região mais próxima
 5. Aguarde a criação do projeto (pode levar alguns minutos)
 
-#### 3.2. Executar o Schema SQL
+#### 2.2. Executar o Schema SQL
 
 1. No painel do Supabase, vá em **SQL Editor** (menu lateral)
 2. Clique em **New Query**
@@ -53,7 +45,7 @@ npm install
 5. Clique em **Run** (ou pressione Ctrl+Enter)
 6. Aguarde a execução (deve aparecer "Success")
 
-#### 3.3. Configurar as credenciais no app
+#### 2.3. Configurar as credenciais no app
 
 1. No painel do Supabase, vá em **Settings** > **API**
 2. Copie as seguintes informações:
@@ -89,12 +81,10 @@ npm run ios      # Para iOS (apenas no macOS)
 
 3. O app será carregado no seu dispositivo!
 
-## 📄 Licença
+## 📄 Imagens
 
-Este projeto é de código aberto e está disponível sob a licença MIT.
-
-## 👨‍💻 Autor
-
-Desenvolvido com ❤️ para ajudar no controle de finanças pessoais.
+![Início](./image2.png)
+![Despesas](./image3.png)
+![Categoria](./image.png)
 
 ---
